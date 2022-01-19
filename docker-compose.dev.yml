@@ -1,0 +1,11 @@
+services:
+  seeworthy-posts:
+    image: seeworthy-posts:0.1.0-dev
+    container_name: web-dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - '.:/app'
+    ports:
+      - 3000:3000

@@ -1,0 +1,13 @@
+/.husky
+/.vscode
+/build
+/coverage
+/node_modules
+.dockerignore
+.eslintignore
+.eslintrc.js
+.gitignore
+.prettierignore
+.prettierrc.js
+Dockerfile*
+README.md

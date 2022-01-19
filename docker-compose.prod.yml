@@ -1,0 +1,9 @@
+services:
+  seeworthy-posts:
+    image: seeworthy-posts:0.1.0-prod
+    container_name: web-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - 3000:80
